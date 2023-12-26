@@ -6,6 +6,7 @@ This project provides a set of AWS CloudFormation templates to deploy a Virtual 
 
 The following diagram provides an overview of the resources included in this example. The VPC has public subnets and private subnets in two Availability Zones. Each public subnet contains a NAT gateway and a load balancer node. The servers run in the private subnets, are launched and terminated by using an Auto Scaling group, and receive traffic from the load balancer. The servers can connect to the internet by using the NAT gateway. The servers can connect to Amazon S3 by using a gateway VPC endpoint.
 
+![vpc-example-private-subnets](https://github.com/prajapatdip/AWS-VPC/assets/104031556/a6d75c78-470d-4d5d-8d31-6cc67b1536fb)
 
 
 ## Features
